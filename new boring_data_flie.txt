@@ -1,0 +1,5 @@
+Lucky Luke,40
+Takis,30
+Petros,20
+Panos,10
+Jesse James,5
