@@ -1,4 +1,4 @@
-# westbank
+# West Bank Remastered
 About the game
 A remastered version of a ZX-Spectrum game from 1985.
 Coding: Panos Tsikogiannopoulos
