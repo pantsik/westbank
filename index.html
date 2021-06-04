@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>West Bank</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> !-->
+    <meta name='viewport' content='user-scalable=0' > <!-- So that it doesn't zoom on click in input !-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_qCR7E72WNe13QFiRp0fRC");
+    })();
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div id="p5_loading" class="loadingclass"><h1>West Bank is loading...</h1></div>
+
+    <div id="inputid" class="inputclass">
+      <form id="formid" onkeydown="return event.key != 'Enter';">
+        <center>
+          Please type your nickname and click START GAME<br>
+          <input type="text" id="nickname" name="nickname" class="inputclass"> <br>
+        </center>
+      </form>
+      <center>
+        <button id="namebutton" class="inputclass" type="submit" onclick="startGame()"> START GAME </button>
+      </center>
+    </div>
+
+    <script type="text/javascript" src="westbank.js"></script>
+
+  </body>
+</html>

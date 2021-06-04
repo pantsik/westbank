@@ -1,0 +1,35 @@
+html, body {
+  background-color: black;
+  margin: auto;
+  height: 100%;     /* Για να μην γίνεται scrolling */
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  height: 100%;     /* Για να μην γίνεται scrolling */
+}
+
+#inputid {
+  display: none;
+  line-height: 2;
+  color: rgb(255,255,255);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#nickname {
+  width: 360px;
+}
+
+.inputclass {
+  /*color: rgb(73,30,30);*/
+  /*font-family:'rioGrande';*/
+  font-size: 35px;
+  font-weight: bold;
+  /*width: 200px;*/
+}
+
+.loadingclass {
+  color: rgb(255,255,255);
+}
