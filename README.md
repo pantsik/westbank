@@ -19,6 +19,8 @@ Touch or click an opened door: Shoot the visitor
 * Movement works when all the doors are closed.
 
 
-You can play the game here: https://grifoi.org/westbank/westbank.html
-
 Youtube demo: https://youtu.be/iiOO1iI80-Y
+
+Play the game online here: https://grifoi.org/westbank/westbank.html
+
+Download a mobile friendly android version of the game from Google Play Store: https://play.google.com/store/apps/details?id=com.westbankremastered
